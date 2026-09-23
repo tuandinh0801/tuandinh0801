@@ -4,6 +4,8 @@
 ### Software Engineer & Open Source Contributor
 **Developer Infrastructure • AI Systems • Open Protocols**
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tuan-dinh-604868125/)
+[![Email](https://img.shields.io/badge/Email-baotuan0.0%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:baotuan0.0@gmail.com)
 [![GitHub Followers](https://img.shields.io/github/followers/tuandinh0801?style=flat-square&color=24292e&logo=github)](https://github.com/tuandinh0801)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -85,8 +87,7 @@ I believe the best tools are **ergonomic, resilient, and built on open standards
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tuandinh0801&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tuandinh0801&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117" alt="Top Languages" width="48%" />
+<img src="https://streak-stats.demolab.com/?user=tuandinh0801&theme=dark&hide_border=true&background=0D1117" alt="GitHub Streak" />
 
 <br/><br/>
 
@@ -96,6 +97,6 @@ I believe the best tools are **ergonomic, resilient, and built on open standards
 
 ### 🤝 Connect & Collaborate
 
-[GitHub](https://github.com/tuandinh0801) • [LinkedIn](https://www.linkedin.com/in/tuandinh0801/) • [Email](mailto:tuandinh0801@gmail.com)
+[GitHub](https://github.com/tuandinh0801) • [LinkedIn](https://www.linkedin.com/in/tuan-dinh-604868125/) • [Email](mailto:baotuan0.0@gmail.com)
 
 </div>
