@@ -1,107 +1,70 @@
 <div align="center">
 
 # Tuan Dinh
-### AI Agent Infrastructure & Developer Tooling Engineer
-**Ho Chi Minh City, Vietnam**
+### Software Engineer & Open Source Contributor
+**Developer Infrastructure • AI Systems • Open Protocols**
 
-[![Anthropic MCP](https://img.shields.io/badge/Anthropic-Model%20Context%20Protocol-D97757?style=flat-square&logo=anthropic&logoColor=white)](https://modelcontextprotocol.io)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Ecosystem%20Tooling-CC785C?style=flat-square&logo=anthropic&logoColor=white)](https://github.com/tuandinh0801/claudex)
-[![OpenAI Codex](https://img.shields.io/badge/OpenAI-Codex%20%26%20Agents-10A37F?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
 [![GitHub Followers](https://img.shields.io/github/followers/tuandinh0801?style=flat-square&color=24292e&logo=github)](https://github.com/tuandinh0801)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen?style=flat-square&logo=open-source-initiative&logoColor=white)](https://github.com/tuandinh0801)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 <br/>
 
-> Building runtime harnesses, context-optimization layers, and Model Context Protocol (MCP) tooling for autonomous coding agents.
+> Passionate about building robust developer tooling, high-throughput gateway infrastructure, and open protocols that enhance software engineering workflows.
 
 <br/>
 
-[Featured Systems](#-featured-open-source-systems) • [MCP Ecosystem](#-model-context-protocol-mcp-ecosystem) • [Architecture](#-ecosystem-architecture) • [OSS Grant Alignment](#-open-source-focus--grant-alignment) • [Tech Stack](#-technical-stack)
+[About](#-about-me) • [Featured Work](#-featured-open-source-work) • [Core Focus Areas](#-core-focus-areas) • [Technical Stack](#-technical-stack) • [Connect](#-connect--collaborate)
 
 ---
 
 </div>
 
-## 🔭 Executive Overview
+## 👨‍💻 About Me
 
-I engineer tools that make autonomous coding agents more resilient, context-efficient, and secure. My work bridges frontier model harnesses (**Claude Code**, **OpenAI Codex**, and **Deep Agents**) with developer environments, multi-account routing gateways, and standardized protocol interfaces.
+I am a software engineer based in Ho Chi Minh City, Vietnam. Over the course of my career, I've focused on building resilient software systems, developer ergonomics, and modern AI infrastructure.
 
-```
-Frontier Models (Claude / Codex) ──► Routing & Quota Gateways ──► Context & Memory (OpenWiki) ──► MCP Tool Execution
-```
+My work spans from contributing to high-throughput open-source gateways and documentation engines, to designing standalone CLI developer tools, Model Context Protocol (MCP) servers, and runtime security scanners.
+
+I believe the best tools are **ergonomic, resilient, and built on open standards**.
 
 ---
 
-## 🚀 Featured Open-Source Systems
+## 🚀 Featured Open-Source Work
 
-### 🤖 Major Open-Source Contributions & Agent Infrastructure
+### 🌐 Major Open-Source Contributions
 
-| System | Role & Impact | Stargazers | Stack |
+| Project | Role & Contribution | Community | Tech Stack |
 | :--- | :--- | :--- | :--- |
-| [**`OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) | **Active Contributor (10+ merged PRs)** — AI gateway routing across 350+ providers with token compression, quota-aware fallback, and provider fixes (OpenAI, Gemini, Copilot). | ![Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=flat-square&color=yellow) | `TypeScript` `Gateway` `AI Ops` |
-| [**`OpenWiki`**](https://github.com/langchain-ai/openwiki) | **Contributor** — Deep Agents-powered documentation generator. Engineered native Pi / OMP coding-agent integrations and packaging. | ![Stars](https://img.shields.io/github/stars/langchain-ai/openwiki?style=flat-square&color=yellow) | `TypeScript` `Deep Agents` `CLI` |
-| [**`claudex`**](https://github.com/tuandinh0801/claudex) | **Author** — Seamless harness translating Claude Code agent interfaces and hook systems to OpenAI Codex backends. Preserves sub-agents, skills, and tools. | ![Stars](https://img.shields.io/github/stars/tuandinh0801/claudex?style=flat-square) | `Shell` `Node.js` `Codex API` |
-| [**`agent-package-manager`**](https://github.com/tuandinh0801/agent-package-manager) | **Author** — Declarative AI development environment managing coding standards, security rules, and workflow skills as single installable packages. | ![Stars](https://img.shields.io/github/stars/tuandinh0801/agent-package-manager?style=flat-square) | `APM CLI` `Claude Code` `Copilot` |
-| [**`omp-multi-auth`**](https://github.com/tuandinh0801/omp-multi-auth) | **Author** — Multi-account OAuth manager and dynamic quota-aware fallback plugin for the Oh My Pi (`omp`) coding agent CLI. | ![Stars](https://img.shields.io/github/stars/tuandinh0801/omp-multi-auth?style=flat-square) | `TypeScript` `OAuth` `TUI` |
+| [**`OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) | **Active Contributor (10+ merged PRs)** — High-performance AI gateway routing across 350+ model providers. Implemented provider fallback routing, SSE stream stabilization, and daemon controls. | ![Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=flat-square&color=yellow) | `TypeScript` `Gateway` `AI Ops` |
+| [**`OpenWiki`**](https://github.com/langchain-ai/openwiki) | **Contributor** — Self-maintaining codebase documentation engine powered by Deep Agents. Authored coding-agent integrations and packaging hooks. | ![Stars](https://img.shields.io/github/stars/langchain-ai/openwiki?style=flat-square&color=yellow) | `TypeScript` `Deep Agents` `CLI` |
 
-### 🔌 Model Context Protocol (MCP) Ecosystem
+### 🛠️ Developer Tooling & Agent Infrastructure
 
-*Standardized tools bridging models to environments and human-in-the-loop validation:*
+| Project | Summary | Focus |
+| :--- | :--- | :--- |
+| [**`claudex`**](https://github.com/tuandinh0801/claudex) | Tooling harness bridging Claude Code agent workflows, skills, and hooks with alternative LLM backends and translators. | `Developer Tooling` `APIs` |
+| [**`omp-multi-auth`**](https://github.com/tuandinh0801/omp-multi-auth) | Multi-account OAuth manager with quota-aware fallback and switching for terminal coding assistants. | `OAuth` `CLI / TUI` `Node.js` |
+| [**`agent-package-manager`**](https://github.com/tuandinh0801/agent-package-manager) | Declarative configuration framework for standardizing coding guidelines, security rules, and workflow skills across repositories. | `DevEx` `Standards` `CLI` |
+| [**`roo-sparc`**](https://github.com/tuandinh0801/roo-sparc) | Modular CLI for bootstrapping developer modes, SPARC methodology rules, and structured coding workflows. | `TypeScript` `CLI` `Automation` |
 
-- **[`feedback-loop-mcp`](https://github.com/tuandinh0801/feedback-loop-mcp)** — Interactive desktop GUI (Electron) + MCP server enabling structured human-in-the-loop validation during autonomous agent runs.
-- **[`task-stately`](https://github.com/tuandinh0801/task-stately)** — Stateful task management CLI and MCP server providing persistent execution tracking across long-horizon agent tasks.
-- **[`claude-drawio`](https://github.com/tuandinh0801/claude-drawio)** — Visual architecture diagram generation and inspection tools built for Claude Code agent workflows.
-- **[`unsafe-mcp`](https://github.com/tuandinh0801/unsafe-mcp)** — Sandboxing and boundary analysis research for MCP server tool executions.
+### 🔌 Open Protocols & Security
 
-### ⚡ Gateway, Context Optimization & Security
-
-- **[`hookify-plus`](https://github.com/tuandinh0801/hookify-plus)** — Enhanced rule triggers with inverted regex matching, value inspectors, and read-event interceptors for agent hooks.
-- **[`LiteLLM-vuln-scanner`](https://github.com/tuandinh0801/LiteLLM-vuln-scanner)** — Automated vulnerability and configuration audit scanner for LLM proxy pipelines.
-
----
-
-## 🏛️ Ecosystem Architecture
-
-```mermaid
-flowchart LR
-    subgraph Developer["Developer Workspace"]
-        IDE["Coding Agents\n(Claude Code / OMP / Roo)"]
-        APM["Agent Package Manager\n(Rules, Skills, Security)"]
-    end
-
-    subgraph Orchestration["Agent Harness & Routing"]
-        CX["Claudex / OMP Multi-Auth\n(Account & Provider Switching)"]
-        GW["OmniRoute Gateway\n(Token Compression & Fallbacks)"]
-    end
-
-    subgraph Protocols["Protocols & Codebase Memory"]
-        MCP["MCP Servers\n(Feedback Loop, Task-Stately)"]
-        Wiki["OpenWiki\n(Agent Codebase Knowledge)"]
-    end
-
-    subgraph Models["Frontier Models"]
-        Claude["Anthropic Claude 3.5 / 3.7"]
-        Codex["OpenAI Codex / GPT-4o"]
-    end
-
-    IDE --> APM
-    IDE --> CX
-    CX --> GW
-    GW --> Claude
-    GW --> Codex
-    CX <--> MCP
-    CX <--> Wiki
-```
+- [**`feedback-loop-mcp`**](https://github.com/tuandinh0801/feedback-loop-mcp) — Interactive desktop GUI (Electron) + Model Context Protocol (MCP) server enabling real-time human-in-the-loop oversight during automated execution.
+- [**`task-stately`**](https://github.com/tuandinh0801/task-stately) — Stateful task tracking CLI and MCP server for long-horizon execution management and progress persistence.
+- [**`LiteLLM-vuln-scanner`**](https://github.com/tuandinh0801/LiteLLM-vuln-scanner) — Automated security audit scanner detecting misconfigurations and vulnerabilities in LLM proxy pipelines.
+- [**`hookify-plus`**](https://github.com/tuandinh0801/hookify-plus) — Extensible hook runner with inverted regex triggers and event interceptors for automated workflows.
 
 ---
 
-## 🎯 Open Source Focus & Grant Alignment
+## 🧭 Core Focus Areas
 
-I am actively building open-source tooling aligned with **Anthropic Open Source Grants** and **OpenAI Codex Developer Programs**:
-
-1. **Model Context Protocol (MCP) Standards**: Extending MCP primitives for interactive human feedback, persistent agent memory, and enterprise-grade sandboxing.
-2. **Autonomous Coding Agent Ergonomics**: Reducing friction in cross-model harnesses, sub-agent spawning, rate-limit recovery, and quota fallbacks.
-3. **Agent Security & Boundaries**: Hardening agent tool execution through proactive hook inspection (`hookify-plus`) and proxy vulnerability analysis.
+- **Developer Experience & Tooling**: Designing clean CLIs, desktop utilities, and configuration layers that reduce friction and cognitive load for engineers.
+- **Gateway Architecture & Resilience**: Handling provider failovers, token compression, quota management, and streaming stability across distributed systems.
+- **Protocol Standardization**: Researching and implementing interoperable communication protocols (such as Model Context Protocol) to connect applications, tools, and environments.
+- **Software Safety & Guardrails**: Proactive AST inspection, security boundary enforcement, and validation harnesses.
 
 ---
 
@@ -109,13 +72,12 @@ I am actively building open-source tooling aligned with **Anthropic Open Source 
 
 <div align="center">
 
-| Domain | Technologies |
+| Category | Technologies |
 | :--- | :--- |
-| **Agent Runtimes & Harnesses** | Claude Code, Oh My Pi (`omp`), Roo Code, OpenAI Codex, Deep Agents |
-| **Protocols & Gateways** | Model Context Protocol (MCP), OmniRoute, LiteLLM, REST / SSE |
-| **Languages & Core** | TypeScript, JavaScript, Python, Shell (Bash/Zsh), Go |
-| **Frameworks & UI** | Node.js, Electron, React, TailwindCSS, Commander, Ink (TUI) |
-| **Testing, Evals & Security** | Vitest, Jest, Promptfoo, Agentic Evals, AST Inspection |
+| **Languages** | TypeScript, JavaScript, Python, Shell (Bash/Zsh), Go |
+| **Frameworks & Runtimes** | Node.js, Electron, React, TailwindCSS, Commander, Ink (TUI) |
+| **Architectures & Protocols** | Model Context Protocol (MCP), REST APIs, Server-Sent Events (SSE), Reverse Proxies |
+| **Tooling & Engineering** | Git, Docker, Vitest, Jest, GitHub Actions, Linux / macOS |
 
 </div>
 
@@ -129,9 +91,11 @@ I am actively building open-source tooling aligned with **Anthropic Open Source 
 <br/><br/>
 
 ```
-"The bottleneck in autonomous agents isn't intelligence—it's ergonomics, context efficiency, and protocol fidelity."
+"Simplicity of design, reliability of execution, and tools that empower developers."
 ```
 
-**Connect & Collaborate:** [GitHub](https://github.com/tuandinh0801) • [LinkedIn](https://www.linkedin.com/in/tuandinh0801/)
+### 🤝 Connect & Collaborate
+
+[GitHub](https://github.com/tuandinh0801) • [LinkedIn](https://www.linkedin.com/in/tuandinh0801/) • [Email](mailto:tuandinh0801@gmail.com)
 
 </div>
