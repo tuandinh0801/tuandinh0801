@@ -34,14 +34,15 @@ Frontier Models (Claude / Codex) ──► Routing & Quota Gateways ──► Co
 
 ## 🚀 Featured Open-Source Systems
 
-### 🤖 Agent Runtimes & Dev Ecosystem
+### 🤖 Major Open-Source Contributions & Agent Infrastructure
 
-| System | Description | Core Stack |
-| :--- | :--- | :--- |
-| [**`claudex`**](https://github.com/tuandinh0801/claudex) | Seamless harness translating Claude Code agent interfaces and hook systems to OpenAI Codex backends. Preserves sub-agents, skills, and tools. | `Shell` `Node.js` `Codex API` |
-| [**`agent-package-manager`**](https://github.com/tuandinh0801/agent-package-manager) | Declarative AI development environment managing coding standards, security rules, and workflow skills as single installable packages across Claude, Copilot, and OpenCode. | `APM CLI` `Claude Code` `Copilot` |
-| [**`omp-multi-auth`**](https://github.com/tuandinh0801/omp-multi-auth) | Multi-account OAuth manager and dynamic quota-aware fallback plugin for the Oh My Pi (`omp`) coding agent CLI. | `TypeScript` `OAuth` `TUI` |
-| [**`openwiki`**](https://github.com/tuandinh0801/openwiki) | Self-maintaining codebase documentation wiki for agents and humans powered by LangChain Deep Agents. Keeps repository memory up to date automatically. | `TypeScript` `Deep Agents` `CLI` |
+| System | Role & Impact | Stargazers | Stack |
+| :--- | :--- | :--- | :--- |
+| [**`OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) | **Active Contributor (10+ merged PRs)** — AI gateway routing across 350+ providers with token compression, quota-aware fallback, and provider fixes (OpenAI, Gemini, Copilot). | ![Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=flat-square&color=yellow) | `TypeScript` `Gateway` `AI Ops` |
+| [**`OpenWiki`**](https://github.com/langchain-ai/openwiki) | **Contributor** — Deep Agents-powered documentation generator. Engineered native Pi / OMP coding-agent integrations and packaging. | ![Stars](https://img.shields.io/github/stars/langchain-ai/openwiki?style=flat-square&color=yellow) | `TypeScript` `Deep Agents` `CLI` |
+| [**`claudex`**](https://github.com/tuandinh0801/claudex) | **Author** — Seamless harness translating Claude Code agent interfaces and hook systems to OpenAI Codex backends. Preserves sub-agents, skills, and tools. | ![Stars](https://img.shields.io/github/stars/tuandinh0801/claudex?style=flat-square) | `Shell` `Node.js` `Codex API` |
+| [**`agent-package-manager`**](https://github.com/tuandinh0801/agent-package-manager) | **Author** — Declarative AI development environment managing coding standards, security rules, and workflow skills as single installable packages. | ![Stars](https://img.shields.io/github/stars/tuandinh0801/agent-package-manager?style=flat-square) | `APM CLI` `Claude Code` `Copilot` |
+| [**`omp-multi-auth`**](https://github.com/tuandinh0801/omp-multi-auth) | **Author** — Multi-account OAuth manager and dynamic quota-aware fallback plugin for the Oh My Pi (`omp`) coding agent CLI. | ![Stars](https://img.shields.io/github/stars/tuandinh0801/omp-multi-auth?style=flat-square) | `TypeScript` `OAuth` `TUI` |
 
 ### 🔌 Model Context Protocol (MCP) Ecosystem
 
@@ -54,7 +55,6 @@ Frontier Models (Claude / Codex) ──► Routing & Quota Gateways ──► Co
 
 ### ⚡ Gateway, Context Optimization & Security
 
-- **[`OmniRoute`](https://github.com/tuandinh0801/OmniRoute)** *(Contributor)* — Multi-provider AI gateway supporting 340+ providers, token compression (RTK/Caveman 15–95%), and quota-aware auto-fallback.
 - **[`hookify-plus`](https://github.com/tuandinh0801/hookify-plus)** — Enhanced rule triggers with inverted regex matching, value inspectors, and read-event interceptors for agent hooks.
 - **[`LiteLLM-vuln-scanner`](https://github.com/tuandinh0801/LiteLLM-vuln-scanner)** — Automated vulnerability and configuration audit scanner for LLM proxy pipelines.
 
